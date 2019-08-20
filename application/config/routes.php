@@ -11,3 +11,7 @@ $route['percobaandua'] = 'percobaan/dua';
 $route['percobaantiga/(:any)'] = 'percobaan/tiga/$1';
 $route['percobaanempat/(:any)/(:any)'] = 'percobaan/empat/$1/$2';
 $route['template'] = 'percobaan/lima';
+$route['percobaanenam']='percobaan/enam';
+$route['percobaantujuh']='percobaan/tujuh';
+$route['percobaanlapan']='percobaan/lapan';
+$route['percobaansembilan']='percobaan/sembilan';
