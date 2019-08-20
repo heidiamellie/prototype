@@ -37,6 +37,10 @@ public function empat($nilai1,$nilai2)
 
 }
 
+public function lima()
+{
+  $this->load->view('template');
+}
 
 }
 

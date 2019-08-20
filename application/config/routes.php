@@ -10,3 +10,4 @@ $route['percobaandua'] = 'percobaan/dua';
 
 $route['percobaantiga/(:any)'] = 'percobaan/tiga/$1';
 $route['percobaanempat/(:any)/(:any)'] = 'percobaan/empat/$1/$2';
+$route['template'] = 'percobaan/lima';
