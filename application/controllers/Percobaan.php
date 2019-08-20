@@ -39,9 +39,13 @@ public function empat($nilai1,$nilai2)
 
 public function lima()
 {
-  $this->load->view('template');
+  $this->load->view('template', $this->percobaan_model->lima());
 }
 
+public function enam()
+{
+  $this->load->view('template', $this->percobaan_model->enam());
+}
 }
 
 

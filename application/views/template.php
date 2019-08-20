@@ -383,6 +383,8 @@
           </div>
         </div>
         <div class="page-inner mt--5">
+
+          <?php $this->load->view($view_name); ?>
         </div>
       </div>
         <footer class="footer">

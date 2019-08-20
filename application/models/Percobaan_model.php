@@ -32,6 +32,16 @@ class Percobaan_model extends CI_model
     $data['keliling'] = $this->HitungKeliling($nilai1, $nilai2);
     return $data;
   }
+  public function lima()
+  {
+    $data['view_name'] = 'lima';
+    return $data;
+  }
+  public function enam()
+  {
+    $data['view_name'] = 'enam';
+    return $data;
+  }
 }
 
 
