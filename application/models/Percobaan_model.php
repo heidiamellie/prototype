@@ -42,6 +42,12 @@ class Percobaan_model extends CI_model
     $data['view_name'] = 'enam';
     return $data;
   }
+
+  public function tujuh()
+  {
+    $data['view_name'] = 'tujuh';
+    return $data;
+  }
 }
 
 

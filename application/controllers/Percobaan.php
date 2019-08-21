@@ -46,6 +46,11 @@ public function enam()
 {
   $this->load->view('template', $this->percobaan_model->enam());
 }
+
+public function tujuh()
+{
+  $this->load->view('template',$this->percobaan_model->tujuh());
+}
 }
 
 
